@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/right_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@color/none">
+
+    <Spinner
+        android:id="@+id/province_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="250dp"
+        android:background="@color/none"
+        android:gravity="right|bottom" />
+
+    <Spinner
+        android:id="@+id/city_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="150dp"
+        android:background="@color/none"
+        android:gravity="right|bottom" />
+
+    <Spinner
+        android:id="@+id/county_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/none"
+        android:gravity="right|bottom" />
+</RelativeLayout>
